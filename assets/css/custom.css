@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/background.webp');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.my-text { color: rgb(61, 199, 61) !important; }
+.my-btn { 
+    background: rgb(61, 199, 61) !important; 
+    border-color: rgb(61, 199, 61) !important;
+}
+.my-btn:hover {
+    background: rgb(54, 172, 54) !important;
+    border-color: rgb(54, 172, 54) !important;
+}
+.my-img {
+    /* outline: 5px solid rgb(61, 199, 61); */
+    border-right: 14px solid rgb(61, 199, 61);
+    border-bottom: 14px solid rgb(61, 199, 61);
+    padding: 7px;
+}
